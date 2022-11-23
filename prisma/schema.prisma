@@ -1,0 +1,23 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model books {
+  id            Int         @id @default(autoincrement())
+  bookTitle     String      @unique
+  pages         Int
+  startReading  DateTime    @default(now()) @db.Date
+  status        statustype? @default(N_o_iniciado)
+  finishReading DateTime?   @db.Date
+}
+
+enum statustype {
+  N_o_iniciado @map("Não iniciado")
+  Em_andamento @map("Em andamento")
+  Livro_lido   @map("Livro lido")
+}

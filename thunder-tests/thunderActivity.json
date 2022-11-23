@@ -1,0 +1,120 @@
+[
+  {
+    "_id": "b381342b-721d-4958-ac8c-4fd2e1c14e52",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/books",
+    "url": "localhost:4000/books",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-10T13:07:16.598Z",
+    "modified": "2022-11-10T20:17:57.654Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"bookTitle\": \"Leopardo Negro, Lobo Vermelho\",\n  \"pages\": 784,\n  \"status\": \"Não iniciado\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "7dd189a2-ea60-439c-9c33-dcd367c7ffe0",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/books",
+    "url": "localhost:4000/books",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-10T16:42:50.611Z",
+    "modified": "2022-11-22T13:36:13.077Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"bookTitle\": \"Leopardo Negro, Lobo Vermelho 4\",\n  \"pages\": 784\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "acfeae84-99d4-4d60-8839-098edec3052f",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/books To Delete",
+    "url": "localhost:4000/books",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2022-11-10T16:42:50.611Z",
+    "modified": "2022-11-17T13:52:04.195Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"bookTitle\": \"Patati Patata o livro\",\n  \"pages\": 14,\n  \"status\": \"N_o_iniciado\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "369641e2-511c-429c-a162-51bf0a743809",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/books/delete/5",
+    "url": "localhost:4000/books/delete/13",
+    "method": "DELETE",
+    "sortNum": 0,
+    "created": "2022-11-10T18:55:02.039Z",
+    "modified": "2022-11-22T13:37:12.772Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "b13b2109-0978-46e1-b3d0-6bb486002428",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/books/4",
+    "url": "localhost:4000/books/13",
+    "method": "PUT",
+    "sortNum": 0,
+    "created": "2022-11-10T20:21:40.286Z",
+    "modified": "2022-11-22T13:36:52.217Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"status\": \"Livro_lido\"\n}",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "36c52928-80cb-46c4-b696-5a1cc9b781db",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/pagesRead",
+    "url": "localhost:4000/pagesRead",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-10T20:22:10.207Z",
+    "modified": "2022-11-10T20:23:48.349Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  },
+  {
+    "_id": "20cbaa26-d7a5-4257-a061-e1c6b746888f",
+    "colId": "history",
+    "containerId": "",
+    "name": "localhost:4000/booksRead",
+    "url": "localhost:4000/booksRead",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2022-11-10T20:28:49.490Z",
+    "modified": "2022-11-10T20:28:49.557Z",
+    "headers": [],
+    "params": [],
+    "tests": []
+  }
+]
